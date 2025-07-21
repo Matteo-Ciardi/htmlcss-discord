@@ -14,9 +14,8 @@ header {
     background-color: #00018b;
 }
 
-button {
-    font-size: 20px;
-    padding: 5px 10px;
+h1 {
+    font-size: 3.5em;
 }
 
 /* Header top */
@@ -24,7 +23,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15PX 0;
+    padding: 15px 0 60px 0;
     background-color: #255ee9;
 }
 
@@ -33,14 +32,16 @@ button {
     justify-content: space-between;
     align-items: center;
     width: 65%;
-    padding: 15px 0 60px 0;
+    padding: 15px;
     /* DEBUG */
     /* background-color: #daa51e; */
 }
 
 #logo {
     display: flex;
+    align-items: baseline;
     width: 20%;
+    padding-top: 8px
 }
 
 #main-nav ul {
@@ -48,6 +49,7 @@ button {
     justify-content: space-around;
     list-style-type: none;
     width: 60%;
+    font-size: 1.2em;
 }
 
 #main-nav a {
@@ -73,7 +75,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 65px 0;
+    padding: 0 0 125px 0;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
@@ -81,10 +83,38 @@ button {
 }
 
 #jumbotron {
+    padding: 40px 75px;
     width: 50%;
-    /* DEBUG */
     height: 400px;
-    background-color: #ef82ed;
+    color: white;
+    text-align: center;
+    /* DEBUG */
+    /* background-color: #ef82ed; */
+}
+
+#jumbotron p {
+    align-items: center;
+    font-size: 1.5em;
+    margin: 50px 0 60px 0;
+}
+
+#jumbotron a {
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    margin: 20px;
+}
+
+.download {
+    background-color: white;
+    color: black;
+}
+
+.open-discord {
+    background-color: #26282c;
+    color: white;
 }
 
 /* Main */
