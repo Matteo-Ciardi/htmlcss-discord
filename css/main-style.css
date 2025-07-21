@@ -37,6 +37,11 @@ h4 {
     font-weight: 800;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Header top */
 .header-top {
     display: flex;
@@ -71,8 +76,8 @@ h4 {
 }
 
 #main-nav a {
-    text-decoration: none;
-    color: white;
+    /* text-decoration: none; */
+    /* color: white; */
 }
 
 #login {
@@ -216,7 +221,6 @@ h4 {
 
 /* Footer top */
 footer {
-    /* DEBUG */
     background-color: #23272a;
 }
 
@@ -276,11 +280,19 @@ footer {
 }
 
 .useful-links {
-    padding: 48px 30px 0;
+    padding: 30px 30px 0;
     width: 25%;
     /* DEBUG */
     /* height: 100%; */
     /* border-right: 1px solid white; */
+}
+
+li:first-child {
+    color: #768ac8;
+}
+
+.useful-links li {
+    margin: 20px;
 }
 
 /* Footer bottom */
