@@ -224,23 +224,20 @@ footer {
     background-color: #23272a;
 }
 
-.footer-top {
-    border-bottom: 1px solid white;
-}
-
 .footer-row-container {
     display: flex;
     justify-content: center;
     margin: 0px auto;
     width: 65%;
     padding: 10px 0px 40px;
+    border-bottom: 1px solid white;
     /* DEBUG */
     /* height: 450px; */
 }
 
 .social {
     width: 20%;
-    padding: 40px 30px;
+    padding: 40px 25px;
     /* DEBUG */
     /* height: 100%; */
     /* background-color: #f08180; */
@@ -248,7 +245,7 @@ footer {
 
 .social h4 {
     color: #7287de;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 1.4em;
 }
 
@@ -273,10 +270,11 @@ footer {
 }
 
 .cnt-all {
+    margin-left: 50px;
     display: flex;
     width: 80%;
     /* DEBUG */
-    background-color: #20b3aa;
+    /* background-color: #20b3aa; */
 }
 
 .useful-links {
@@ -293,6 +291,7 @@ li:first-child {
 
 .useful-links li {
     margin: 20px;
+    font-weight: 600;
 }
 
 /* Footer bottom */
