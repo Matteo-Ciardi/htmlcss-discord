@@ -63,7 +63,6 @@ a {
 
 #logo {
     display: flex;
-    align-items: baseline;
     width: 20%;
     padding-top: 8px
 }
@@ -73,11 +72,6 @@ a {
     justify-content: space-around;
     width: 60%;
     font-size: 1.2em;
-}
-
-#main-nav a {
-    /* text-decoration: none; */
-    /* color: white; */
 }
 
 #login {
@@ -150,6 +144,7 @@ a {
 .cr-grey {
     background-color: lightgrey;
 }
+
 .wave {
     width: 100%;
     display: block;
@@ -224,12 +219,12 @@ footer {
     background-color: #23272a;
 }
 
-.footer-row-container {
+.footer-row-container-top {
     display: flex;
     justify-content: center;
     margin: 0px auto;
     width: 65%;
-    padding: 10px 0px 40px;
+    padding: 10px 0px;
     border-bottom: 1px solid white;
     /* DEBUG */
     /* height: 450px; */
@@ -295,22 +290,25 @@ li:first-child {
 }
 
 /* Footer bottom */
+.footer-row-container-bottom {
+    margin: 0px auto;
+    width: 65%;
+    padding: 20px 0px 50px;
+}
+
 .policy {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     /* DEBUG */
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 
-.logo-bottom {
-    /* DEBUG */
-    background-color: #fdb5be;
+.sign-in {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #91a1e7;
+    color: white;
 }
 
-.ft-rw-cnt-bottom {
-    padding: 20px 0px 0px;
-    /* DEBUG */
-    height: 80px;
-}
