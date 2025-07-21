@@ -30,7 +30,6 @@ h3 {
 
 h4 {
     font-weight: 800;
-    font-size: 3em;
 }
 
 /* Header top */
@@ -227,9 +226,36 @@ footer {
 
 .social {
     width: 20%;
+    padding: 40px 30px;
     /* DEBUG */
     /* height: 100%; */
-    background-color: #f08180;
+    /* background-color: #f08180; */
+}
+
+.social h4 {
+    color: #7287de;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.language-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.flag {
+    width: 30px;
+}
+
+.language {
+    margin: 0 5px;
+}
+
+.social-icon i {
+    margin-right: 20px;
+    color: white;
 }
 
 .cnt-all {
