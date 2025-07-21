@@ -22,6 +22,12 @@ h2 {
     font-size: 3.3em;
 }
 
+h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
 /* Header top */
 .header-top {
     display: flex;
@@ -102,7 +108,7 @@ h2 {
     margin: 50px 0 60px 0;
 }
 
-#jumbotron a {
+.link-btn {
     text-decoration: none;
     font-size: 20px;
     border-radius: 30px;
@@ -111,7 +117,7 @@ h2 {
     margin: 20px;
 }
 
-.download {
+.download-white {
     background-color: white;
     color: black;
 }
@@ -163,8 +169,34 @@ h2 {
     width: 65%;
     text-align: center;
     /* DEBUG */
-    height: 800px;
-    background-color: green;
+    /* height: 800px; */
+    /* background-color: green; */
+}
+
+.mobile-apps h2 {
+    margin: 0 70px;
+}
+
+.mobile-apps p {
+    font-size: 1.3em;
+    line-height: 35px;
+    margin: 35px 95px 0;
+}
+
+.app-image {
+    width: 100%;
+}
+
+.download-blue {
+    background-color: #8ea0e2;
+    color: white;
+}
+
+.start-download {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 45px 0;
 }
 
 /* Footer top */
