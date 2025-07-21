@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+header {
+    /* DEBUG */
+    background-color: #00018b;
+}
+
+/* Header top */
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15PX 0;
+    /* DEBUG */
+    background-color: #add8e7;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding: 15px 0;
+    /* DEBUG */
+    background-color: #daa51e;
+}
+
+#logo {
+    display: flex;
+    width: 20%;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 60%;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+/* Header bottom */
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#jumbotron {
+    width: 50%;
+    /* DEBUG */
+    height: 400px;
+    background-color: #ef82ed;
+}
+
+/* Main */
+.container-row {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.cr-grey {
+    background-color: #d1d1d1;
+}
+
+.container-element {
+    width: 65%;
+    display: flex;
+}
+
+.text-box {
+    /* DEBUG */
+    height: 500px;
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+.img-box {
+    /* DEBUG */
+    height: 500px;
+    width: 40%;
+    background-color: #ffc0ca;
+}
+
+.mobile-apps {
+    width: 65%;
+    display: flex;
+    /* DEBUG */
+    height: 800px;
+    background-color: green;
+}
+
+/* Footer top */
+footer {
+    /* DEBUG */
+    background-color: #23272a;
+}
+
+.footer-top {
+    border-bottom: 1px solid white;
+}
+
+.footer-row-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 65%;
+    padding: 10px 0px 40px;
+    /* DEBUG */
+    height: 450px;
+}
+
+.social {
+    width: 20%;
+    /* DEBUG */
+    height: 100%;
+    background-color: #f08180;
+}
+
+.cnt-all {
+    display: flex;
+    width: 80%;
+    /* DEBUG */
+    background-color: #20b3aa;
+}
+
+.useful-links {
+    width: 25%;
+    /* DEBUG */
+    height: 100%;
+    border-right: 1px solid white;
+}
+
+/* Footer bottom */
+.policy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* DEBUG */
+    background-color: cyan;
+}
+
+.logo-bottom {
+    /* DEBUG */
+    background-color: #fdb5be;
+}
+
+.ft-rw-cnt-bottom {
+    padding: 20px 0px 0px;
+    /* DEBUG */
+    height: 80px;
+}
