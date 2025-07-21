@@ -57,8 +57,6 @@ a {
     align-items: center;
     width: 65%;
     padding: 15px;
-    /* DEBUG */
-    /* background-color: #daa51e; */
 }
 
 #logo {
@@ -105,8 +103,6 @@ a {
     height: 400px;
     color: white;
     text-align: center;
-    /* DEBUG */
-    /* background-color: #ef82ed; */
 }
 
 #jumbotron p {
@@ -142,7 +138,7 @@ a {
 }
 
 .cr-grey {
-    background-color: lightgrey;
+    background-color: #f6f6f6;
 }
 
 .wave {
@@ -162,17 +158,11 @@ a {
 
 .img-box {
     width: 60%;
-    /* DEBUG */
-    /* height: 500px; */
-    /* background-color: #1e90ff; */
 }
 
 .text-box {
     padding-top: 30px;
     width: 40%;
-    /* DEBUG */
-    /* height: 500px; */
-    /* background-color: #ffc0ca; */
 }
 
 .text-box p {
@@ -183,9 +173,6 @@ a {
 .mobile-apps {
     width: 65%;
     text-align: center;
-    /* DEBUG */
-    /* height: 800px; */
-    /* background-color: green; */
 }
 
 .mobile-apps h2 {
@@ -226,16 +213,11 @@ footer {
     width: 65%;
     padding: 10px 0px;
     border-bottom: 1px solid white;
-    /* DEBUG */
-    /* height: 450px; */
 }
 
 .social {
     width: 20%;
     padding: 40px 25px;
-    /* DEBUG */
-    /* height: 100%; */
-    /* background-color: #f08180; */
 }
 
 .social h4 {
@@ -268,16 +250,11 @@ footer {
     margin-left: 50px;
     display: flex;
     width: 80%;
-    /* DEBUG */
-    /* background-color: #20b3aa; */
 }
 
 .useful-links {
     padding: 30px 30px 0;
     width: 25%;
-    /* DEBUG */
-    /* height: 100%; */
-    /* border-right: 1px solid white; */
 }
 
 li:first-child {
@@ -300,8 +277,6 @@ li:first-child {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* DEBUG */
-    /* background-color: cyan; */
 }
 
 .sign-in {
