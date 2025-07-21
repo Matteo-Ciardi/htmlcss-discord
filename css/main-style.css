@@ -18,12 +18,16 @@ h1 {
     font-size: 3.5em;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 /* Header top */
 .header-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0 60px 0;
+    padding-bottom: 60px;
     background-color: #255ee9;
 }
 
@@ -133,18 +137,26 @@ h1 {
     display: flex;
 }
 
-.text-box {
-    /* DEBUG */
-    height: 500px;
-    width: 60%;
-    background-color: #1e90ff;
-}
-
 .img-box {
     /* DEBUG */
     height: 500px;
+    width: 60%;
+    /* background-color: #1e90ff; */
+}
+
+.text-box {
+    padding-top: 30px;
+    padding-right: 110px;
     width: 40%;
-    background-color: #ffc0ca;
+    /* DEBUG */
+    /* height: 500px; */
+    /* background-color: #ffc0ca; */
+}
+
+.text-box p {
+    font-size: 1.5em;
+    margin-top: 35px;
+    line-height: 35px;
 }
 
 .mobile-apps {
