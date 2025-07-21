@@ -161,7 +161,7 @@ h2 {
 
 .mobile-apps {
     width: 65%;
-    display: flex;
+    text-align: center;
     /* DEBUG */
     height: 800px;
     background-color: green;
