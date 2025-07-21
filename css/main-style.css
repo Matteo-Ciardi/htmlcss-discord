@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 3.3em;
 }
 
 /* Header top */
@@ -125,7 +125,7 @@ h2 {
 .container-row {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 100px 0;
 }
 
 .cr-grey {
@@ -139,14 +139,14 @@ h2 {
 
 .img-box {
     /* DEBUG */
-    height: 500px;
+    /* height: 500px; */
     width: 60%;
     /* background-color: #1e90ff; */
 }
 
 .text-box {
     padding-top: 30px;
-    padding-right: 110px;
+    padding-right: 111px;
     width: 40%;
     /* DEBUG */
     /* height: 500px; */
@@ -154,7 +154,7 @@ h2 {
 }
 
 .text-box p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 35px;
     line-height: 35px;
 }
