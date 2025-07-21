@@ -25,8 +25,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 15PX 0;
-    /* DEBUG */
-    background-color: #add8e7;
+    background-color: #255ee9;
 }
 
 #main-nav {
@@ -34,9 +33,9 @@ button {
     justify-content: space-between;
     align-items: center;
     width: 65%;
-    padding: 15px 0;
+    padding: 15px 0 60px 0;
     /* DEBUG */
-    background-color: #daa51e;
+    /* background-color: #daa51e; */
 }
 
 #logo {
@@ -74,9 +73,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 65px 0;
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
